@@ -13,6 +13,7 @@
 		142282DE1C94529D0023A741 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 142282DC1C94529D0023A741 /* Main.storyboard */; };
 		142282E01C94529D0023A741 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 142282DF1C94529D0023A741 /* Assets.xcassets */; };
 		142282E31C94529D0023A741 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 142282E11C94529D0023A741 /* LaunchScreen.storyboard */; };
+		142282EC1C9453950023A741 /* person.m in Sources */ = {isa = PBXBuildFile; fileRef = 142282EB1C9453950023A741 /* person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		142282DF1C94529D0023A741 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		142282E21C94529D0023A741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		142282E41C94529D0023A741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		142282EA1C9453950023A741 /* person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = person.h; sourceTree = "<group>"; };
+		142282EB1C9453950023A741 /* person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				142282DA1C94529D0023A741 /* ViewController.m */,
 				142282DC1C94529D0023A741 /* Main.storyboard */,
 				142282DF1C94529D0023A741 /* Assets.xcassets */,
+				142282EA1C9453950023A741 /* person.h */,
+				142282EB1C9453950023A741 /* person.m */,
 				142282E11C94529D0023A741 /* LaunchScreen.storyboard */,
 				142282E41C94529D0023A741 /* Info.plist */,
 				142282D31C94529D0023A741 /* Supporting Files */,
@@ -151,6 +156,7 @@
 			files = (
 				142282DB1C94529D0023A741 /* ViewController.m in Sources */,
 				142282D81C94529D0023A741 /* AppDelegate.m in Sources */,
+				142282EC1C9453950023A741 /* person.m in Sources */,
 				142282D51C94529D0023A741 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
