@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		149504051C89534A003998B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 149504041C89534A003998B1 /* main.m */; };
+		149504081C89534A003998B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 149504071C89534A003998B1 /* AppDelegate.m */; };
+		1495040B1C89534A003998B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1495040A1C89534A003998B1 /* ViewController.m */; };
+		1495040E1C89534A003998B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1495040C1C89534A003998B1 /* Main.storyboard */; };
+		149504131C89534A003998B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 149504111C89534A003998B1 /* LaunchScreen.storyboard */; };
+		149504461C89539A003998B1 /* QJXFindTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 149504221C89539A003998B1 /* QJXFindTableViewController.m */; };
+		149504471C89539A003998B1 /* QJXHallTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 149504281C89539A003998B1 /* QJXHallTableViewController.m */; };
+		149504481C89539A003998B1 /* QJXLotterMessageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1495042E1C89539A003998B1 /* QJXLotterMessageTableViewController.m */; };
+		149504491C89539A003998B1 /* QJXArenaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 149504341C89539A003998B1 /* QJXArenaViewController.m */; };
+		1495044A1C89539A003998B1 /* QJXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 149504361C89539A003998B1 /* QJXTabBarController.m */; };
+		1495044B1C89539A003998B1 /* QJXMylotterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1495043C1C89539A003998B1 /* QJXMylotterViewController.m */; };
+		149504511C89565D003998B1 /* QJXTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 149504501C89565D003998B1 /* QJXTabBar.m */; };
+		149504541C89A733003998B1 /* QJXButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 149504531C89A733003998B1 /* QJXButton.m */; };
+		149504571C89B3B0003998B1 /* QJXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 149504561C89B3B0003998B1 /* QJXNavigationController.m */; };
+		1495045A1C89B3F4003998B1 /* QJXArenaNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 149504591C89B3F4003998B1 /* QJXArenaNavigationController.m */; };
+		1495045D1C8A74B5003998B1 /* QJCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1495045C1C8A74B5003998B1 /* QJCoverView.m */; };
+		149504601C8A7783003998B1 /* QJPopVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 1495045F1C8A7783003998B1 /* QJPopVIew.m */; };
+		149504621C8A7838003998B1 /* QJPopVIew.xib in Resources */ = {isa = PBXBuildFile; fileRef = 149504611C8A7838003998B1 /* QJPopVIew.xib */; };
+		149504661C8A8AD7003998B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 149504651C8A8AD7003998B1 /* Assets.xcassets */; };
+		14A5B2E91C8C46FF00B7599F /* QJXMylotterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14A5B2E81C8C46FF00B7599F /* QJXMylotterViewController.xib */; };
+		14A5B2EB1C8C540C00B7599F /* QJXFindTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A5B2EA1C8C540C00B7599F /* QJXFindTableViewController.storyboard */; };
+		14A5B2F01C8D9C0F00B7599F /* QJXBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A5B2EF1C8D9C0F00B7599F /* QJXBuyViewController.m */; };
+		14A5B2F31C8D9D3900B7599F /* QJXTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A5B2F21C8D9D3900B7599F /* QJXTitleButton.m */; };
+		14A5B2F91C8DA23600B7599F /* UIImage+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A5B2F61C8DA23600B7599F /* UIImage+image.m */; };
+		14A5B2FA1C8DA23600B7599F /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A5B2F81C8DA23600B7599F /* UIView+Frame.m */; };
+		14A5B2FD1C8EC4A100B7599F /* QJXCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A5B2FC1C8EC4A100B7599F /* QJXCollectionViewController.m */; };
+		14A5B3041C8ECD6000B7599F /* QJXCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A5B3031C8ECD6000B7599F /* QJXCollectionViewCell.m */; };
+		14A5B30B1C8FF82C00B7599F /* QJXSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A5B30A1C8FF82C00B7599F /* QJXSettingViewController.m */; };
+		14A5B30E1C8FF8C900B7599F /* QJXRowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A5B30D1C8FF8C900B7599F /* QJXRowModel.m */; };
+		14A5B3111C90030500B7599F /* QJXGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A5B3101C90030500B7599F /* QJXGroupModel.m */; };
+		14A5B3141C9012F200B7599F /* QJXSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A5B3131C9012F200B7599F /* QJXSwitch.m */; };
+		14A5B3171C90137400B7599F /* QJXArrow.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A5B3161C90137400B7599F /* QJXArrow.m */; };
+		14A5B31A1C901E8200B7599F /* QJXAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A5B3191C901E8200B7599F /* QJXAViewController.m */; };
+		14A5B31D1C903B9200B7599F /* QJXCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A5B31C1C903B9200B7599F /* QJXCell.m */; };
+		14A5B3201C90402900B7599F /* QJXBaseTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A5B31F1C90402900B7599F /* QJXBaseTableVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		149504001C89534A003998B1 /* 彩票练习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "彩票练习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		149504041C89534A003998B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		149504061C89534A003998B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		149504071C89534A003998B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		149504091C89534A003998B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1495040A1C89534A003998B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1495040D1C89534A003998B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		149504121C89534A003998B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		149504141C89534A003998B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		149504211C89539A003998B1 /* QJXFindTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJXFindTableViewController.h; sourceTree = "<group>"; };
+		149504221C89539A003998B1 /* QJXFindTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJXFindTableViewController.m; sourceTree = "<group>"; };
+		149504271C89539A003998B1 /* QJXHallTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJXHallTableViewController.h; sourceTree = "<group>"; };
+		149504281C89539A003998B1 /* QJXHallTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJXHallTableViewController.m; sourceTree = "<group>"; };
+		1495042D1C89539A003998B1 /* QJXLotterMessageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJXLotterMessageTableViewController.h; sourceTree = "<group>"; };
+		1495042E1C89539A003998B1 /* QJXLotterMessageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJXLotterMessageTableViewController.m; sourceTree = "<group>"; };
+		149504331C89539A003998B1 /* QJXArenaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QJXArenaViewController.h; path = ../../main/controller/QJXArenaViewController.h; sourceTree = "<group>"; };
+		149504341C89539A003998B1 /* QJXArenaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QJXArenaViewController.m; path = ../../main/controller/QJXArenaViewController.m; sourceTree = "<group>"; };
+		149504351C89539A003998B1 /* QJXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJXTabBarController.h; sourceTree = "<group>"; };
+		149504361C89539A003998B1 /* QJXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJXTabBarController.m; sourceTree = "<group>"; };
+		1495043B1C89539A003998B1 /* QJXMylotterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJXMylotterViewController.h; sourceTree = "<group>"; };
+		1495043C1C89539A003998B1 /* QJXMylotterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJXMylotterViewController.m; sourceTree = "<group>"; };
+		1495044F1C89565D003998B1 /* QJXTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QJXTabBar.h; path = "彩票练习/classes/main/VIew/QJXTabBar.h"; sourceTree = SOURCE_ROOT; };
+		149504501C89565D003998B1 /* QJXTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QJXTabBar.m; path = "彩票练习/classes/main/VIew/QJXTabBar.m"; sourceTree = SOURCE_ROOT; };
+		149504521C89A733003998B1 /* QJXButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJXButton.h; sourceTree = "<group>"; };
+		149504531C89A733003998B1 /* QJXButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJXButton.m; sourceTree = "<group>"; };
+		149504551C89B3B0003998B1 /* QJXNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJXNavigationController.h; sourceTree = "<group>"; };
+		149504561C89B3B0003998B1 /* QJXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJXNavigationController.m; sourceTree = "<group>"; };
+		149504581C89B3F4003998B1 /* QJXArenaNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJXArenaNavigationController.h; sourceTree = "<group>"; };
+		149504591C89B3F4003998B1 /* QJXArenaNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJXArenaNavigationController.m; sourceTree = "<group>"; };
+		1495045B1C8A74B5003998B1 /* QJCoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QJCoverView.h; path = ../controller/QJCoverView.h; sourceTree = "<group>"; };
+		1495045C1C8A74B5003998B1 /* QJCoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QJCoverView.m; path = ../controller/QJCoverView.m; sourceTree = "<group>"; };
+		1495045E1C8A7783003998B1 /* QJPopVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJPopVIew.h; sourceTree = "<group>"; };
+		1495045F1C8A7783003998B1 /* QJPopVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJPopVIew.m; sourceTree = "<group>"; };
+		149504611C8A7838003998B1 /* QJPopVIew.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QJPopVIew.xib; sourceTree = "<group>"; };
+		149504651C8A8AD7003998B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14A5B2E81C8C46FF00B7599F /* QJXMylotterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QJXMylotterViewController.xib; sourceTree = "<group>"; };
+		14A5B2EA1C8C540C00B7599F /* QJXFindTableViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = QJXFindTableViewController.storyboard; sourceTree = "<group>"; };
+		14A5B2EE1C8D9C0F00B7599F /* QJXBuyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJXBuyViewController.h; sourceTree = "<group>"; };
+		14A5B2EF1C8D9C0F00B7599F /* QJXBuyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJXBuyViewController.m; sourceTree = "<group>"; };
+		14A5B2F11C8D9D3900B7599F /* QJXTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QJXTitleButton.h; path = ../controller/QJXTitleButton.h; sourceTree = "<group>"; };
+		14A5B2F21C8D9D3900B7599F /* QJXTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QJXTitleButton.m; path = ../controller/QJXTitleButton.m; sourceTree = "<group>"; };
+		14A5B2F51C8DA23600B7599F /* UIImage+image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+image.h"; sourceTree = "<group>"; };
+		14A5B2F61C8DA23600B7599F /* UIImage+image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+image.m"; sourceTree = "<group>"; };
+		14A5B2F71C8DA23600B7599F /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		14A5B2F81C8DA23600B7599F /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		14A5B2FB1C8EC4A100B7599F /* QJXCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJXCollectionViewController.h; sourceTree = "<group>"; };
+		14A5B2FC1C8EC4A100B7599F /* QJXCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJXCollectionViewController.m; sourceTree = "<group>"; };
+		14A5B3021C8ECD6000B7599F /* QJXCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJXCollectionViewCell.h; sourceTree = "<group>"; };
+		14A5B3031C8ECD6000B7599F /* QJXCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJXCollectionViewCell.m; sourceTree = "<group>"; };
+		14A5B3091C8FF82C00B7599F /* QJXSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJXSettingViewController.h; sourceTree = "<group>"; };
+		14A5B30A1C8FF82C00B7599F /* QJXSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJXSettingViewController.m; sourceTree = "<group>"; };
+		14A5B30C1C8FF8C900B7599F /* QJXRowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QJXRowModel.h; path = ../VIew/QJXRowModel.h; sourceTree = "<group>"; };
+		14A5B30D1C8FF8C900B7599F /* QJXRowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QJXRowModel.m; path = ../VIew/QJXRowModel.m; sourceTree = "<group>"; };
+		14A5B30F1C90030500B7599F /* QJXGroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJXGroupModel.h; sourceTree = "<group>"; };
+		14A5B3101C90030500B7599F /* QJXGroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJXGroupModel.m; sourceTree = "<group>"; };
+		14A5B3121C9012F200B7599F /* QJXSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJXSwitch.h; sourceTree = "<group>"; };
+		14A5B3131C9012F200B7599F /* QJXSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJXSwitch.m; sourceTree = "<group>"; };
+		14A5B3151C90137400B7599F /* QJXArrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJXArrow.h; sourceTree = "<group>"; };
+		14A5B3161C90137400B7599F /* QJXArrow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJXArrow.m; sourceTree = "<group>"; };
+		14A5B3181C901E8200B7599F /* QJXAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJXAViewController.h; sourceTree = "<group>"; };
+		14A5B3191C901E8200B7599F /* QJXAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJXAViewController.m; sourceTree = "<group>"; };
+		14A5B31B1C903B9200B7599F /* QJXCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJXCell.h; sourceTree = "<group>"; };
+		14A5B31C1C903B9200B7599F /* QJXCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJXCell.m; sourceTree = "<group>"; };
+		14A5B31E1C90402900B7599F /* QJXBaseTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QJXBaseTableVC.h; path = ../QJXBaseTableVC.h; sourceTree = "<group>"; };
+		14A5B31F1C90402900B7599F /* QJXBaseTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QJXBaseTableVC.m; path = ../QJXBaseTableVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		149503FD1C89534A003998B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		149503F71C89534A003998B1 = {
+			isa = PBXGroup;
+			children = (
+				149504021C89534A003998B1 /* 彩票练习 */,
+				149504011C89534A003998B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		149504011C89534A003998B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				149504001C89534A003998B1 /* 彩票练习.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		149504021C89534A003998B1 /* 彩票练习 */ = {
+			isa = PBXGroup;
+			children = (
+				1495041A1C89539A003998B1 /* classes */,
+				14A5B2F41C8DA23600B7599F /* Catetory */,
+				149504061C89534A003998B1 /* AppDelegate.h */,
+				149504071C89534A003998B1 /* AppDelegate.m */,
+				149504091C89534A003998B1 /* ViewController.h */,
+				1495040A1C89534A003998B1 /* ViewController.m */,
+				1495040C1C89534A003998B1 /* Main.storyboard */,
+				149504651C8A8AD7003998B1 /* Assets.xcassets */,
+				149504111C89534A003998B1 /* LaunchScreen.storyboard */,
+				149504141C89534A003998B1 /* Info.plist */,
+				149504031C89534A003998B1 /* Supporting Files */,
+			);
+			path = "彩票练习";
+			sourceTree = "<group>";
+		};
+		149504031C89534A003998B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				149504041C89534A003998B1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1495041A1C89539A003998B1 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				14A5B3051C8FF81000B7599F /* setting设置 */,
+				14A5B2FE1C8EC4B900B7599F /* 新特性 */,
+				149504311C89539A003998B1 /* main */,
+				1495041B1C89539A003998B1 /* arena(竞技场) */,
+				1495041F1C89539A003998B1 /* find(发现) */,
+				149504251C89539A003998B1 /* hall(购票大厅) */,
+				1495042B1C89539A003998B1 /* lotterMessage(开奖信息) */,
+				149504391C89539A003998B1 /* mylotter(我的彩票) */,
+				1495043F1C89539A003998B1 /* nib */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		1495041B1C89539A003998B1 /* arena(竞技场) */ = {
+			isa = PBXGroup;
+			children = (
+				1495041C1C89539A003998B1 /* controller */,
+				1495041D1C89539A003998B1 /* model */,
+				1495041E1C89539A003998B1 /* VIew */,
+			);
+			path = "arena(竞技场)";
+			sourceTree = "<group>";
+		};
+		1495041C1C89539A003998B1 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				149504331C89539A003998B1 /* QJXArenaViewController.h */,
+				149504341C89539A003998B1 /* QJXArenaViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		1495041D1C89539A003998B1 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		1495041E1C89539A003998B1 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		1495041F1C89539A003998B1 /* find(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				149504201C89539A003998B1 /* controller */,
+				149504231C89539A003998B1 /* model */,
+				149504241C89539A003998B1 /* VIew */,
+			);
+			path = "find(发现)";
+			sourceTree = "<group>";
+		};
+		149504201C89539A003998B1 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				149504211C89539A003998B1 /* QJXFindTableViewController.h */,
+				149504221C89539A003998B1 /* QJXFindTableViewController.m */,
+				14A5B2EA1C8C540C00B7599F /* QJXFindTableViewController.storyboard */,
+				14A5B2EE1C8D9C0F00B7599F /* QJXBuyViewController.h */,
+				14A5B2EF1C8D9C0F00B7599F /* QJXBuyViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		149504231C89539A003998B1 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		149504241C89539A003998B1 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				14A5B2F11C8D9D3900B7599F /* QJXTitleButton.h */,
+				14A5B2F21C8D9D3900B7599F /* QJXTitleButton.m */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		149504251C89539A003998B1 /* hall(购票大厅) */ = {
+			isa = PBXGroup;
+			children = (
+				149504261C89539A003998B1 /* controller */,
+				149504291C89539A003998B1 /* model */,
+				1495042A1C89539A003998B1 /* VIew */,
+			);
+			path = "hall(购票大厅)";
+			sourceTree = "<group>";
+		};
+		149504261C89539A003998B1 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				149504271C89539A003998B1 /* QJXHallTableViewController.h */,
+				149504281C89539A003998B1 /* QJXHallTableViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		149504291C89539A003998B1 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		1495042A1C89539A003998B1 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				1495045B1C8A74B5003998B1 /* QJCoverView.h */,
+				1495045C1C8A74B5003998B1 /* QJCoverView.m */,
+				1495045E1C8A7783003998B1 /* QJPopVIew.h */,
+				149504611C8A7838003998B1 /* QJPopVIew.xib */,
+				1495045F1C8A7783003998B1 /* QJPopVIew.m */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		1495042B1C89539A003998B1 /* lotterMessage(开奖信息) */ = {
+			isa = PBXGroup;
+			children = (
+				1495042C1C89539A003998B1 /* controller */,
+				1495042F1C89539A003998B1 /* model */,
+				149504301C89539A003998B1 /* VIew */,
+			);
+			path = "lotterMessage(开奖信息)";
+			sourceTree = "<group>";
+		};
+		1495042C1C89539A003998B1 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				1495042D1C89539A003998B1 /* QJXLotterMessageTableViewController.h */,
+				1495042E1C89539A003998B1 /* QJXLotterMessageTableViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		1495042F1C89539A003998B1 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		149504301C89539A003998B1 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		149504311C89539A003998B1 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				149504321C89539A003998B1 /* controller */,
+				149504371C89539A003998B1 /* model */,
+				149504381C89539A003998B1 /* VIew */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		149504321C89539A003998B1 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				149504351C89539A003998B1 /* QJXTabBarController.h */,
+				149504361C89539A003998B1 /* QJXTabBarController.m */,
+				149504551C89B3B0003998B1 /* QJXNavigationController.h */,
+				149504561C89B3B0003998B1 /* QJXNavigationController.m */,
+				149504581C89B3F4003998B1 /* QJXArenaNavigationController.h */,
+				149504591C89B3F4003998B1 /* QJXArenaNavigationController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		149504371C89539A003998B1 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		149504381C89539A003998B1 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				1495044F1C89565D003998B1 /* QJXTabBar.h */,
+				149504501C89565D003998B1 /* QJXTabBar.m */,
+				149504521C89A733003998B1 /* QJXButton.h */,
+				149504531C89A733003998B1 /* QJXButton.m */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		149504391C89539A003998B1 /* mylotter(我的彩票) */ = {
+			isa = PBXGroup;
+			children = (
+				1495043A1C89539A003998B1 /* controller */,
+				1495043D1C89539A003998B1 /* model */,
+				1495043E1C89539A003998B1 /* VIew */,
+			);
+			path = "mylotter(我的彩票)";
+			sourceTree = "<group>";
+		};
+		1495043A1C89539A003998B1 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				1495043B1C89539A003998B1 /* QJXMylotterViewController.h */,
+				1495043C1C89539A003998B1 /* QJXMylotterViewController.m */,
+				14A5B2E81C8C46FF00B7599F /* QJXMylotterViewController.xib */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		1495043D1C89539A003998B1 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		1495043E1C89539A003998B1 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		1495043F1C89539A003998B1 /* nib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = nib;
+			sourceTree = "<group>";
+		};
+		14A5B2F41C8DA23600B7599F /* Catetory */ = {
+			isa = PBXGroup;
+			children = (
+				14A5B2F51C8DA23600B7599F /* UIImage+image.h */,
+				14A5B2F61C8DA23600B7599F /* UIImage+image.m */,
+				14A5B2F71C8DA23600B7599F /* UIView+Frame.h */,
+				14A5B2F81C8DA23600B7599F /* UIView+Frame.m */,
+			);
+			name = Catetory;
+			path = classes/nib/Catetory;
+			sourceTree = "<group>";
+		};
+		14A5B2FE1C8EC4B900B7599F /* 新特性 */ = {
+			isa = PBXGroup;
+			children = (
+				14A5B2FF1C8EC4D400B7599F /* controller */,
+				14A5B3011C8EC50A00B7599F /* view */,
+				14A5B3001C8EC4F400B7599F /* model */,
+			);
+			name = "新特性";
+			sourceTree = "<group>";
+		};
+		14A5B2FF1C8EC4D400B7599F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				14A5B2FB1C8EC4A100B7599F /* QJXCollectionViewController.h */,
+				14A5B2FC1C8EC4A100B7599F /* QJXCollectionViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		14A5B3001C8EC4F400B7599F /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		14A5B3011C8EC50A00B7599F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				14A5B3021C8ECD6000B7599F /* QJXCollectionViewCell.h */,
+				14A5B3031C8ECD6000B7599F /* QJXCollectionViewCell.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		14A5B3051C8FF81000B7599F /* setting设置 */ = {
+			isa = PBXGroup;
+			children = (
+				14A5B3061C8FF81000B7599F /* controller */,
+				14A5B3071C8FF81000B7599F /* model */,
+				14A5B3081C8FF81000B7599F /* VIew */,
+			);
+			path = "setting设置";
+			sourceTree = "<group>";
+		};
+		14A5B3061C8FF81000B7599F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				14A5B3091C8FF82C00B7599F /* QJXSettingViewController.h */,
+				14A5B30A1C8FF82C00B7599F /* QJXSettingViewController.m */,
+				14A5B3181C901E8200B7599F /* QJXAViewController.h */,
+				14A5B3191C901E8200B7599F /* QJXAViewController.m */,
+				14A5B31E1C90402900B7599F /* QJXBaseTableVC.h */,
+				14A5B31F1C90402900B7599F /* QJXBaseTableVC.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		14A5B3071C8FF81000B7599F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				14A5B30F1C90030500B7599F /* QJXGroupModel.h */,
+				14A5B3101C90030500B7599F /* QJXGroupModel.m */,
+				14A5B30C1C8FF8C900B7599F /* QJXRowModel.h */,
+				14A5B30D1C8FF8C900B7599F /* QJXRowModel.m */,
+				14A5B3121C9012F200B7599F /* QJXSwitch.h */,
+				14A5B3131C9012F200B7599F /* QJXSwitch.m */,
+				14A5B3151C90137400B7599F /* QJXArrow.h */,
+				14A5B3161C90137400B7599F /* QJXArrow.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		14A5B3081C8FF81000B7599F /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				14A5B31B1C903B9200B7599F /* QJXCell.h */,
+				14A5B31C1C903B9200B7599F /* QJXCell.m */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		149503FF1C89534A003998B1 /* 彩票练习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 149504171C89534A003998B1 /* Build configuration list for PBXNativeTarget "彩票练习" */;
+			buildPhases = (
+				149503FC1C89534A003998B1 /* Sources */,
+				149503FD1C89534A003998B1 /* Frameworks */,
+				149503FE1C89534A003998B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "彩票练习";
+			productName = "彩票练习";
+			productReference = 149504001C89534A003998B1 /* 彩票练习.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		149503F81C89534A003998B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QJX;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "权建星";
+				TargetAttributes = {
+					149503FF1C89534A003998B1 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 149503FB1C89534A003998B1 /* Build configuration list for PBXProject "彩票练习" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 149503F71C89534A003998B1;
+			productRefGroup = 149504011C89534A003998B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				149503FF1C89534A003998B1 /* 彩票练习 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		149503FE1C89534A003998B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A5B2E91C8C46FF00B7599F /* QJXMylotterViewController.xib in Resources */,
+				149504131C89534A003998B1 /* LaunchScreen.storyboard in Resources */,
+				1495040E1C89534A003998B1 /* Main.storyboard in Resources */,
+				149504661C8A8AD7003998B1 /* Assets.xcassets in Resources */,
+				149504621C8A7838003998B1 /* QJPopVIew.xib in Resources */,
+				14A5B2EB1C8C540C00B7599F /* QJXFindTableViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		149503FC1C89534A003998B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149504541C89A733003998B1 /* QJXButton.m in Sources */,
+				1495040B1C89534A003998B1 /* ViewController.m in Sources */,
+				149504511C89565D003998B1 /* QJXTabBar.m in Sources */,
+				14A5B3141C9012F200B7599F /* QJXSwitch.m in Sources */,
+				14A5B2F01C8D9C0F00B7599F /* QJXBuyViewController.m in Sources */,
+				14A5B31A1C901E8200B7599F /* QJXAViewController.m in Sources */,
+				14A5B3041C8ECD6000B7599F /* QJXCollectionViewCell.m in Sources */,
+				14A5B3201C90402900B7599F /* QJXBaseTableVC.m in Sources */,
+				14A5B31D1C903B9200B7599F /* QJXCell.m in Sources */,
+				149504081C89534A003998B1 /* AppDelegate.m in Sources */,
+				149504461C89539A003998B1 /* QJXFindTableViewController.m in Sources */,
+				1495044A1C89539A003998B1 /* QJXTabBarController.m in Sources */,
+				14A5B3171C90137400B7599F /* QJXArrow.m in Sources */,
+				149504481C89539A003998B1 /* QJXLotterMessageTableViewController.m in Sources */,
+				149504571C89B3B0003998B1 /* QJXNavigationController.m in Sources */,
+				14A5B30E1C8FF8C900B7599F /* QJXRowModel.m in Sources */,
+				1495044B1C89539A003998B1 /* QJXMylotterViewController.m in Sources */,
+				14A5B30B1C8FF82C00B7599F /* QJXSettingViewController.m in Sources */,
+				14A5B2FA1C8DA23600B7599F /* UIView+Frame.m in Sources */,
+				1495045D1C8A74B5003998B1 /* QJCoverView.m in Sources */,
+				1495045A1C89B3F4003998B1 /* QJXArenaNavigationController.m in Sources */,
+				149504491C89539A003998B1 /* QJXArenaViewController.m in Sources */,
+				14A5B2F31C8D9D3900B7599F /* QJXTitleButton.m in Sources */,
+				149504471C89539A003998B1 /* QJXHallTableViewController.m in Sources */,
+				14A5B3111C90030500B7599F /* QJXGroupModel.m in Sources */,
+				149504051C89534A003998B1 /* main.m in Sources */,
+				149504601C8A7783003998B1 /* QJPopVIew.m in Sources */,
+				14A5B2FD1C8EC4A100B7599F /* QJXCollectionViewController.m in Sources */,
+				14A5B2F91C8DA23600B7599F /* UIImage+image.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1495040C1C89534A003998B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1495040D1C89534A003998B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		149504111C89534A003998B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				149504121C89534A003998B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		149504151C89534A003998B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		149504161C89534A003998B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		149504181C89534A003998B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "彩票练习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		149504191C89534A003998B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "彩票练习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		149503FB1C89534A003998B1 /* Build configuration list for PBXProject "彩票练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				149504151C89534A003998B1 /* Debug */,
+				149504161C89534A003998B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		149504171C89534A003998B1 /* Build configuration list for PBXNativeTarget "彩票练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				149504181C89534A003998B1 /* Debug */,
+				149504191C89534A003998B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 149503F81C89534A003998B1 /* Project object */;
+}

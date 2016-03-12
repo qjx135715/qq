@@ -1,0 +1,120 @@
+//
+//  QJXHallTableViewController.m
+//  彩票
+//
+//  Created by 权建星 on 16/3/4.
+//  Copyright © 2016年 权建星. All rights reserved.
+//
+
+#import "QJXHallTableViewController.h"
+#import "QJCoverView.h"
+#import "QJPopVIew.h"
+
+@interface QJXHallTableViewController ()<QJPopVIewDelegate>
+//@property (nonatomic,strong) QJCoverView *coverView;
+
+@end
+
+@implementation QJXHallTableViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    //创建礼包按钮
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"CS50_activity_image"] style:0 target:self action:@selector(activity)];
+}
+
+- (void)activity{
+    //创建一个全屏遮盖
+   [QJCoverView coverView];
+    
+    //创建一个xibView
+    QJPopVIew *popView = [QJPopVIew showInPoint:self.view.center];
+    //成为其代理,监听点击事件
+    popView.delegate = self;
+} 
+
+//实现代理方法
+- (void)popViewButtonDidClick:(QJPopVIew *)popView{
+    //隐藏popView到某一个点
+    [popView hiddenPopViewToPint:self.view.center complete:^{
+        //解除遮盖
+        for (UIView *view in [UIApplication sharedApplication].keyWindow.subviews) {
+            if ([view isKindOfClass:[QJCoverView class]]) {
+                [view removeFromSuperview];
+            }
+        }
+    }];
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - Table view data source
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+
+    return 0;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+
+    return 0;
+}
+
+/*
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    
+    // Configure the cell...
+    
+    return cell;
+}
+*/
+
+/*
+// Override to support conditional editing of the table view.
+- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
+    // Return NO if you do not want the specified item to be editable.
+    return YES;
+}
+*/
+
+/*
+// Override to support editing the table view.
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (editingStyle == UITableViewCellEditingStyleDelete) {
+        // Delete the row from the data source
+        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
+    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
+        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
+    }   
+}
+*/
+
+/*
+// Override to support rearranging the table view.
+- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
+}
+*/
+
+/*
+// Override to support conditional rearranging of the table view.
+- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
+    // Return NO if you do not want the item to be re-orderable.
+    return YES;
+}
+*/
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
+@end
